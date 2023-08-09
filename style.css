@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 116px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 180px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav>a{
+   text-decoration: none; 
+   color: black;
+   font-weight: 500;
+}
+
+nav>a:hover{
+    color: #A3CB38;
+    font-weight: 600;
+}
+/* navbar ends  */
+
+/* header start  */
+#home{
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 620px;
+}
+
+.header-text{
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 536px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.header-text>h1{
+    font-size: 52px
+}
+.header-text>button{
+    width: 150px;
+    height: 50px;
+    background-color: #A3CB38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 32px;
+}
+
+.green-part{
+    height: 400px;
+    width: 446px;
+    background: #A3CB38;
+    position: absolute;
+    top: 0;
+    right: 131px;
+    z-index: -1;
+}
+
+/* My Main Hustle starts  */
+#education{
+    /* background: pink; */
+    display: flex;
+}
+
+#education>h1{
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.education-text{
+    /* background-color: rgb(30, 214, 214); */
+    max-width: 550px;
+    margin-top: 1%;
+    margin-left: 200px;
+}
+
+h3{
+    color: #A3CB38;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 18px;
+}
+
+.dotbg{
+    position: absolute;
+    background-image: url(./assets/bg.png);
+    min-height: 550px;
+    width: 636px;
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: -1;
+}
+
+/* My Work starts */
+
+#mywork{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#mywork>h2{
+    font-size: 52px;
+
+}
+
+#mywork>p{
+    max-width: 700px;
+    text-align: center;
+}
+
+.mywork-box{
+    /* background-color: aquamarine; */
+    justify-content: space-evenly;
+    display: flex;
+    width: 100vw;
+}
+
+.mywork-card{
+    max-width: 224px;
+    min-height: 323px;
+    align-items: flex-start;
+}
+
+.mywork-card>h3{
+    font-size: 16px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+.card-green{
+    position: relative;
+    height: 45px;
+    width: 30px;
+    background-color: #A3CB38;
+    top: 40px;
+    left: 10px;
+}
+
+
+/* My Work ends  */
