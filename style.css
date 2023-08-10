@@ -156,6 +156,94 @@ h5{
     top: 40px;
     left: 10px;
 }
-
-
 /* My Work ends  */
+
+/* hobbies start  */
+
+#hobbies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 950px;
+}
+
+.hobby-text{
+    width: 378px;
+}
+
+.hobby-text>h1{
+    color: #A3CB38;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.hobby-text>p{
+    margin-top: -32px;
+}
+
+.hobby-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hobby-img-1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.hobby-img-2{
+    display: flex;
+}
+
+/* contact starts */
+
+footer{
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.contact-container{
+    background-color: #A3CB38;
+    height: 300px;
+    width: 596px;
+    position: absolute;
+    left: 0;
+}
+
+.social-media{
+    display: flex;
+    width: 105px;
+    height: 30px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.contact-container>h2{
+    font-size: 52px;
+    margin-bottom: -6px;
+}
+
+.social-media>img{
+    width: 20px;
+    margin: 5px;
+}
+
+.contact-container>a{
+    color: white;
+}
+
+footer p{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+
